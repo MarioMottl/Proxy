@@ -76,12 +76,12 @@ class Proxy(Thread):
             self.p2s.start()
 
 
-master_server = Proxy('0.0.0.0', '0.0.0.0', 3333)
+master_server = Proxy('0.0.0.0', '192.168.172.1', 3333)
 master_server.start()
 
 game_servers = []
 for port in range(3000, 3006):
-    _game_server = Proxy('0.0.0.0', '0.0.0.0', port)
+    _game_server = Proxy('0.0.0.0', '192.168.172.1', port)
     _game_server.start()
     game_servers.append(_game_server)
 

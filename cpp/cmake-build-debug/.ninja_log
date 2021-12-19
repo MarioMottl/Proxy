@@ -1,0 +1,25 @@
+# ninja log v5
+16	79	6615232204624255	CMakeFiles/Proxy.dir/proxy.cpp.obj	5c0bb241e3516e46
+8	2648	6615321187973166	CMakeFiles/Proxy.dir/main.cpp.obj	865e516d40368d1b
+0	85	6615232204674269	CMakeFiles/Proxy.dir/server.cpp.obj	a2d0cbe7b2273371
+16	2984	6615321191263911	CMakeFiles/Proxy.dir/client.cpp.obj	ba0f31d753b41103
+2984	3484	6615321196191282	Proxy.exe	d139c3e7ca2e8ed
+20	57	6616064323999883	CMakeFiles/Proxy.dir/proxy.cpp.obj	119cd30cdd6a3ad5
+7	57	6616064323999883	CMakeFiles/Proxy.dir/server.cpp.obj	34f232aa6effb237
+17	2792	6616064351171370	CMakeFiles/Proxy.dir/main.cpp.obj	10f91a77bfe98d61
+8	2843	6616065044545260	CMakeFiles/Proxy.dir/client.cpp.obj	53091e51f2a78979
+2843	3514	6616065051090681	Proxy.exe	d139c3e7ca2e8ed
+8	2502	6616075979263619	CMakeFiles/Proxy.dir/main.cpp.obj	10f91a77bfe98d61
+8	2536	6616077214237186	CMakeFiles/Proxy.dir/main.cpp.obj	10f91a77bfe98d61
+17	2917	6616077218033393	CMakeFiles/Proxy.dir/client.cpp.obj	53091e51f2a78979
+2917	3588	6616077224518394	Proxy.exe	d139c3e7ca2e8ed
+9	2451	6616077744396393	CMakeFiles/Proxy.dir/main.cpp.obj	10f91a77bfe98d61
+9	2689	6616078000120704	CMakeFiles/Proxy.dir/main.cpp.obj	10f91a77bfe98d61
+17	3062	6616078003821541	CMakeFiles/Proxy.dir/client.cpp.obj	53091e51f2a78979
+9	2569	6616101891655414	CMakeFiles/Proxy.dir/main.cpp.obj	10f91a77bfe98d61
+19	3073	6616101896691779	CMakeFiles/Proxy.dir/client.cpp.obj	53091e51f2a78979
+3073	3740	6616101903200677	Proxy.exe	d139c3e7ca2e8ed
+8	2672	6616102340182014	CMakeFiles/Proxy.dir/main.cpp.obj	10f91a77bfe98d61
+2672	3162	6616102344905446	Proxy.exe	d139c3e7ca2e8ed
+8	2982	6616108495698469	CMakeFiles/Proxy.dir/client.cpp.obj	53091e51f2a78979
+2982	3469	6616108500434582	Proxy.exe	d139c3e7ca2e8ed

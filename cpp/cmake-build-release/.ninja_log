@@ -1,0 +1,6 @@
+# ninja log v5
+0	41	6615252124305656	CMakeFiles/Proxy.dir/server.cpp.obj	e09fa4882ce137e9
+11	44	6615252124325660	CMakeFiles/Proxy.dir/proxy.cpp.obj	8e57438427281cc9
+7	2811	6615311870753333	CMakeFiles/Proxy.dir/main.cpp.obj	533e51b9cf79efd9
+7	3324	6615312701471529	CMakeFiles/Proxy.dir/client.cpp.obj	c67b1b6318f3f23f
+3325	3783	6615312706182632	Proxy.exe	ba3c2c872069aae4
