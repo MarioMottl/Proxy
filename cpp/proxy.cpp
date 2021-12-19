@@ -58,11 +58,8 @@ void net::Proxy::p2sreadhandler() {
     std::string message;
     while(client.getclientstatus())
     {
-        if(!s2gmsgqueue.empty())
-        {
-            client.read(message);
-            s2gmsgqueue.push_back(message);
-        }
+        client.read(message);
+        s2gmsgqueue.push_back(message);
     }
 }
 
