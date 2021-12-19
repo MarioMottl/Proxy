@@ -4,3 +4,8 @@
 7	2811	6615311870753333	CMakeFiles/Proxy.dir/main.cpp.obj	533e51b9cf79efd9
 7	3324	6615312701471529	CMakeFiles/Proxy.dir/client.cpp.obj	c67b1b6318f3f23f
 3325	3783	6615312706182632	Proxy.exe	ba3c2c872069aae4
+12	3055	6616362060898496	CMakeFiles/Proxy.dir/main.cpp.obj	efccec757c7f20fa
+26	3154	6616362061898718	CMakeFiles/Proxy.dir/proxy.cpp.obj	5ee5dd0293093151
+25	3920	6616362069555496	CMakeFiles/Proxy.dir/client.cpp.obj	c501e2436c0e06b1
+23	4042	6616362070755819	CMakeFiles/Proxy.dir/server.cpp.obj	c683107c68158347
+4042	4567	6616362076132982	Proxy.exe	ba3c2c872069aae4

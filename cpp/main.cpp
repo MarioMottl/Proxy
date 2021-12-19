@@ -1,10 +1,8 @@
 #include <iostream>
-#include "client.h"
-#include "server.h"
 #include "proxy.h"
 
 int main() {
     std::string buf;
-    net::Proxy x("0.0.0.0",3333);
+    net::Proxy x("10.0.0.6",1500);
     return 0;
 }

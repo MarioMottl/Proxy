@@ -16,16 +16,19 @@ namespace net{
     class Proxy{
     private:
 
-        static server server;
-        static client client;
-        static std::string p2sip;
-        static uint16_t port;
-        static std::deque<std::string> msgqueue;
-        static void p2shandler();
-        static void g2phandler();
+        inline static server server;
+        inline static client client;
+        inline static std::string p2sip;
+        inline static uint16_t port;
+        inline static std::deque<std::string> g2smsgqueue;
+        inline static std::deque<std::string> s2gmsgqueue;
+        static void p2swritehandler();
+        static void g2preadhandler();
+        static void p2sreadhandler();
+        static void g2pwritehandler();
 
     public:
-        Proxy(std::string p2sip, size_t port);
+        Proxy(std::string ip, size_t port);
         ~Proxy();
         static void proxyserver();
         static void proxyclient();
