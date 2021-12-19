@@ -11,7 +11,7 @@ using boost::asio::ip::tcp;
 
 namespace net
 {
-    bool error(std::string errormsg, boost::system::error_code ec);
+    bool clienterror(std::string errormsg, boost::system::error_code ec);
 
 
     class client{

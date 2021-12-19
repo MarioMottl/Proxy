@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is Clang, found in "C:/Users/Mario/Desktop/GitHub/Proxy_dep/cmake-build-release/CMakeFiles/3.21.1/CompilerIdC/a.exe"
+The C compiler identification is Clang, found in "C:/Users/Mario/Desktop/GitHub/Proxy/cpp/cmake-build-release/CMakeFiles/3.21.1/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files/LLVM/bin/clang++.exe 
@@ -23,31 +23,31 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is Clang, found in "C:/Users/Mario/Desktop/GitHub/Proxy_dep/cmake-build-release/CMakeFiles/3.21.1/CompilerIdCXX/a.exe"
+The CXX compiler identification is Clang, found in "C:/Users/Mario/Desktop/GitHub/Proxy/cpp/cmake-build-release/CMakeFiles/3.21.1/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy_dep/cmake-build-release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy/cpp/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_f4aac && [1/2] Building C object CMakeFiles/cmTC_f4aac.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_f4aac.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_fa936 && [1/2] Building C object CMakeFiles/cmTC_fa936.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_fa936.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy_dep/cmake-build-release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy/cpp/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_79d34 && [1/2] Building CXX object CMakeFiles/cmTC_79d34.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_79d34.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_fc9af && [1/2] Building CXX object CMakeFiles/cmTC_fc9af.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_fc9af.exe
 
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy_dep/cmake-build-release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy/cpp/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_b6710 && [1/2] Building CXX object CMakeFiles/cmTC_b6710.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_b6710.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_1bfcc && [1/2] Building CXX object CMakeFiles/cmTC_1bfcc.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_1bfcc.exe
 
 
 
@@ -110,10 +110,10 @@ Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy_dep/cmake-build-release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Mario/Desktop/GitHub/Proxy/cpp/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_33ff4 && [1/2] Building CXX object CMakeFiles/cmTC_33ff4.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_33ff4.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe cmTC_7ce75 && [1/2] Building CXX object CMakeFiles/cmTC_7ce75.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_7ce75.exe
 
 
 
