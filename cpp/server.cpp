@@ -11,7 +11,7 @@ net::server::~server() {
     acceptor.close();
 }
 
-void net::server::start(int port) {
+void net::server::start(uint16_t port) {
     boost::asio::ip::tcp::endpoint endpoint(tcp::v4(), port);
     acceptor.open(endpoint.protocol());
     acceptor.bind(endpoint);
@@ -48,4 +48,9 @@ void net::server::write(std::string message) {
         boost::asio::write(socket,boost::asio::buffer(message.c_str(),message.length()),boost::asio::transfer_all(),ec);
         servererror("couldn't write",ec);
     }
+}
+
+bool net::server::getserverstatus() {
+    if(socket.is_open()) return true;
+    return false;
 }

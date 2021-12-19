@@ -21,12 +21,14 @@ namespace net{
         tcp::acceptor acceptor;
         size_t packetlength = 256;
         bool connected;
+
     public:
         server();
         ~server();
-        void start(int port);
+        void start(uint16_t port);
         void read(std::string &message);
         void write(std::string message);
+        bool getserverstatus();
     };
 }
 

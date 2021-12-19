@@ -27,6 +27,7 @@ namespace net
         void connect(const std::string& host, int port);
         void read(std::string &message);
         void write(std::string message);
+        bool getclientstatus();
     };
 }
 

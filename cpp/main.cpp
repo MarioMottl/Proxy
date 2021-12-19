@@ -1,13 +1,10 @@
 #include <iostream>
 #include "client.h"
 #include "server.h"
+#include "proxy.h"
 
 int main() {
     std::string buf;
-    net::server y;
-    y.start(3333);
-    y.write("dummer huan\n");
-    y.read(buf);
-    std::cout<< "[RECEIVED]: " << buf << std::endl;
+    net::Proxy x("0.0.0.0",3333);
     return 0;
 }

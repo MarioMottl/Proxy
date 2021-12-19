@@ -49,9 +49,14 @@ void net::client::read(std::string &message) {
 void net::client::write(std::string message) {
     if(connected)
     {
-        boost::asio::write(socket,boost::asio::buffer(message.c_str(),message.length()),boost::asio::transfer_all(),ec);
+        boost::asio::write(socket,boost::asio::buffer(message.c_str(),message.length()),boost::asio::transfer_at_least(1),ec);
         clienterror("couldn't write",ec);
     }
+}
+
+bool net::client::getclientstatus() {
+    if(socket.is_open()) return true;
+    return false;
 }
 
 bool net::clienterror(std::string errormsg, boost::system::error_code ec) {
