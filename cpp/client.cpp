@@ -41,7 +41,7 @@ void net::client::read(std::string &message) {
     if(connected){
         char buf[packetlength];
         boost::asio::read(socket, boost::asio::buffer(buf, packetlength), boost::asio::transfer_at_least(1), ec);
-        //clienterror("couldn't read",ec);
+        clienterror("couldn't read",ec);
         message = buf;
     }
 }
