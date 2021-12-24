@@ -59,6 +59,10 @@ bool net::client::getclientstatus() {
     return false;
 }
 
+uint16_t net::client::getport() {
+    return socket.remote_endpoint().port() ;
+}
+
 bool net::clienterror(std::string errormsg, boost::system::error_code ec) {
     if(ec)
     {

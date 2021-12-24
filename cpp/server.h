@@ -56,6 +56,13 @@ namespace net{
         Return: true if socket is alive : false if socket is dead
         */
         bool getserverstatus();
+
+        /*
+        Function : getport()
+        Description: Returns port of the socket
+        Return: port
+        */
+        uint16_t getport();
     };
 }
 

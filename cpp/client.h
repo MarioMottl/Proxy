@@ -60,6 +60,13 @@ namespace net
         */
         bool getclientstatus();
 
+        /*
+        Function : getport()
+        Description: Returns port of the socket
+        Return: port
+        */
+        uint16_t getport();
+
     };
 }
 

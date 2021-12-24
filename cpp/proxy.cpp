@@ -35,9 +35,8 @@ void net::Proxy::proxyclient() {
 }
 
 void net::Proxy::p2swritehandler() {
-    while(client.getclientstatus())
-    {
-        if(!g2smsgqueue.empty())
+    while(client.getclientstatus()) {
+        if (!g2smsgqueue.empty())
         {
             client.write(*g2smsgqueue.begin());
             g2smsgqueue.pop_front();
@@ -50,6 +49,7 @@ void net::Proxy::g2preadhandler() {
     while(server.getserverstatus())
     {
         server.read(message);
+        output(server.getport(),'s',message);
         g2smsgqueue.push_back(message);
     }
 }
@@ -59,6 +59,7 @@ void net::Proxy::p2sreadhandler() {
     while(client.getclientstatus())
     {
         client.read(message);
+        output(client.getport(),'c',message);
         s2gmsgqueue.push_back(message);
     }
 }

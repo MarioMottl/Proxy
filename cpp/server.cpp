@@ -54,3 +54,8 @@ bool net::server::getserverstatus() {
     if(socket.is_open()) return true;
     return false;
 }
+
+
+uint16_t net::server::getport() {
+    return socket.remote_endpoint().port() ;
+}
